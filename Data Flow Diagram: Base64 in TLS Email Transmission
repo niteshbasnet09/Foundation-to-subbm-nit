@@ -1,0 +1,21 @@
+#task 1 Data Flow Diagram: Base64 in TLS Email Transmission
+
+
+[User File]
+     ↓
+Binary Data
+     ↓
+Base64 Encoding
+     ↓
+SMTP Message Formation (MIME)
+     ↓
+TLS Encryption
+     ↓
+Internet Transmission
+     ↓
+Recipient Server (TLS Decryption)
+     ↓
+Base64 Decoding
+     ↓
+Original File Restored
+
